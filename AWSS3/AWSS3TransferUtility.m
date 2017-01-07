@@ -646,6 +646,7 @@ static AWSS3TransferUtility *_defaultS3TransferUtility = nil;
 
 #pragma mark - UIApplicationDelegate interceptor
 
+#if 0
 + (void)interceptApplication:(UIApplication *)application
 handleEventsForBackgroundURLSession:(NSString *)identifier
            completionHandler:(void (^)())completionHandler {
@@ -662,6 +663,7 @@ handleEventsForBackgroundURLSession:(NSString *)identifier
         }
     }
 }
+#endif
 
 #pragma mark - NSURLSessionDelegate
 
